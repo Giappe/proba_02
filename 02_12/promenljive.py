@@ -185,3 +185,6 @@ But in so doing, he lost many of his friends and suffered greatly, sacrificing m
 
 # stao sam kod vezbe 5 ITA22PPFVM_3.pdf
 
+x = int(input("Unesite broj A: "))
+y = int(input("Unesite broj B: "))
+print("Rezultat je: ", (x + y))
