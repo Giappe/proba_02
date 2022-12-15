@@ -40,6 +40,13 @@ class Firma:
         else:
             self.broj_zaposlenih -= broj_otkazanih
             print(f"Otkazano je: {broj_otkazanih}, preostalih radnika je {self.broj_zaposlenih}")
+    
+    def preuzmi_projekat(self, projekat):
+        if projekat.mockup:
+            print(f"Preuzet je projekat {projekat.tip}")
+            projekat.preuzeta_za_rad = True
+        else:
+            print("Donesite i mockup")
 
 
 moja_firma = Firma("IT Akademija", 300, True)
@@ -48,3 +55,4 @@ print(moja_firma.broj_zaposlenih)
 
 moja_firma.daj_otkaze(20)
 print(moja_firma.broj_zaposlenih)
+moja_firma.preuzmi_projekat(app3)
