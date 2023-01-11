@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+    color: darkorange;
+}
+h1 {
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+}
+.poseban{
+    color: blue;
+    weight: 500px;
+    font-size: larger;
+}
+
+.wrapper{
+    background-color: aqua;
+    color: rgb(220, 20, 210);
+    width: 350px;
+    padding: 30px;
+    border: 8px solid;
+    margin: 50px;
+}
+
+.inline{
+    background-color: cornflowerblue;
+    color: indigo;
+    width: 310px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.bottom{
+    background-color: cornflowerblue;
+    color: rgb(29, 52, 116);
+    width: 500px;
+    padding: 30px;
+}
