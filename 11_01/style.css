@@ -20,7 +20,18 @@ h1 {
     border: 8px solid;
     margin: 50px;
 }
+.x{
+    color: rgb(255, 72, 0);
+    font-weight: 700;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    opacity: 0.5;
 
+
+}
 .inline{
     background-color: cornflowerblue;
     color: indigo;
@@ -29,6 +40,13 @@ h1 {
     padding-right: 20px;
     padding-bottom: 30px;
     padding-left: 20px;
+}
+
+.NoviPasus{
+    background-color: brown;
+    width: 350px;
+    height: 150px;
+    padding: 20px;
 }
 
 .bottom{
