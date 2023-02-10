@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+
+    /*background-color: #C96;
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;*/
+
+    background-image: url(pattern.jpg);
+
+   
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a:link, a:visited {
+    color: #d11414;
+}
+a:hover {
+    color: #b45f09;
+}
+a:active {
+    color: #888;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 950px;
+    padding: 15px;
+    margin: 20px auto 0;
+}
+.header {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.nav {
+    background-color: #333;
+    margin-bottom: 15px;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.nav ul li a {
+    padding: 10px;
+    display: block;
+}
+.nav ul li a:link,
+.nav ul li a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    background-color: #d11414;
+}
+.nav ul li a:active {
+    background-color: #777;
+}
+
+.central {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    flex-basis: 620px;
+    text-align: justify;
+}
+.sidebar {
+    flex-basis: 280px;
+}
+.footer {
+    background-color: #CCC;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+}
+.footer p {
+    margin: 0;
+}
+
+
+
+.imgright {
+    float: right;
+    margin: 0 0 6px 20px;
+}
+.blok {
+    border: 1px solid #888;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.izdvojen {
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.kontaktokvir {
+    display: flex;
+    justify-content: space-between;
+}
+.kontaktlevo {
+    flex-basis: 40%;
+}
+.kontaktdesno {
+    flex-basis: 55%;
+}
+.kontaktdesno iframe {
+    width: 100%;
+    height: 300px;
+}
