@@ -1,0 +1,23 @@
+GET /nekifajl.html?BILO STA HTTP/1.1
+Host: localhost
+Content-Length: 10
+Content-Type: text/plain
+...
+....
+
+hello djape
+kako si danas?
+
+Evo nije lose
+mada moze bolje
+
+tralalalalalalala
+lalalalalalaalal
+
+
+HTTP/1.1 200 OK
+....
+
+sadrzaj fajla neki fajl.html
+
+a=2&b=3&c=4
