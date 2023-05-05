@@ -6,7 +6,7 @@ def proba(request):
     return odgovor
 
 def naslovnastrana(request):
-    odgovor = render(request,"index.html")
+    odgovor = render(request,"index.html", {})
     return odgovor
 
 def detalji(request):
